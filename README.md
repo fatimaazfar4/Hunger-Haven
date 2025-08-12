@@ -7,7 +7,7 @@ A modern food ordering web application offering a delightful user experience wit
 ## Features
 
 - User authentication (Login/Register)
-  ![Login Page Screenshot](<img width="1348" height="635" alt="image" src="https://github.com/user-attachments/assets/8d4633eb-ff34-4f65-9ec5-b7cb60067518" />
+  ![Login Page Screenshot](./pictures/login.png)
 )
 - Browse menu & add to cart
 - Coupon application & discount calculations
