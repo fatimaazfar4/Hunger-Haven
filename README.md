@@ -1,12 +1,34 @@
-# React + Vite
+# Hunger Haven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern food ordering web application offering a delightful user experience with blazing-fast delivery, exclusive offers, and interactive dashboards. Hunger Haven is a full-featured React-based food ordering application. It allows users to browse the menu, add items to cart, apply coupons, view order history, and track real-time order notifications. The application emphasizes fast UI feedback, smooth animations, and a mobile-friendly responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- User authentication (Login/Register)
+  ![Login Page Screenshot](<img width="1348" height="635" alt="image" src="https://github.com/user-attachments/assets/8d4633eb-ff34-4f65-9ec5-b7cb60067518" />
+)
+- Browse menu & add to cart
+- Coupon application & discount calculations
+- Order checkout and confirmation
+- View order history with status updates
+- Real-time notifications with mark-as-read functionality
+- Interactive dashboard with sales and order charts
+- Responsive navigation with profile dropdown
+- Error handling and 404 page for unknown routes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **Frontend:** React, React Router, React Context API
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Charts:** Chart.js (via react-chartjs-2)
+- **Build Tool:** Vite
+
+---
+
+## Project Structure
+
