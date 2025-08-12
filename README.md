@@ -7,8 +7,6 @@ A modern food ordering web application offering a delightful user experience wit
 ## Features
 
 - User authentication (Login/Register)
-  ![Login Page Screenshot](./pictures/login.png)
-)
 - Browse menu & add to cart
 - Coupon application & discount calculations
 - Order checkout and confirmation
@@ -31,4 +29,18 @@ A modern food ordering web application offering a delightful user experience wit
 ---
 
 ## Project Structure
+src/
+├── assets/           # Images and icons
+├── components/       # Reusable UI components (Navbar, PublicRoute, PrivateRoute, etc.)
+├── context/          # React Context providers (AuthContext, CartContext)
+├── data/             # Static data such as offers and menu items
+├── pages/            # Route pages (Dashboard, Orders, Cart, Profile, etc.)
+├── App.jsx           # Root app component with router setup
+├── main.jsx          # App entry point
+tailwind.config.js    # Tailwind CSS configuration
+vite.config.js        # Vite build configuration
+package.json          # Project dependencies and scripts
+
+
+---
 
